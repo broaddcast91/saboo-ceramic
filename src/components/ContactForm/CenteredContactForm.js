@@ -64,19 +64,21 @@ const CenteredContactForm = () => {
                 </div>
               </div>
               <div className='p-2 w-full'>
-                <button className='flex mx-auto text-white bg-blue-500 text-white px-4 py-2 rounded border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+                <button className='flex mx-auto bg-gray-900 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded'>
                   Send
                 </button>
               </div>
               <div className='p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center'>
-                <a href='/#' className='text-indigo-500'>example@email.com</a>
+                <a href='/#' className='text-gray-600'>
+                  contact@saboopro.com
+                </a>
                 <p className='leading-normal my-5'>
-                  49 Smith St.
+                  Somajiguda
                   <br />
-                  Saint Cloud, MN 56301
+                  Hyderabad, TG
                 </p>
                 <span className='inline-flex'>
-                  <a href="/#" className='text-gray-500'>
+                  <a href='/#' className='text-gray-500'>
                     <svg
                       fill='currentColor'
                       strokeLinecap='round'
@@ -88,7 +90,7 @@ const CenteredContactForm = () => {
                       <path d='M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z'></path>
                     </svg>
                   </a>
-                  <a href="/#" className='ml-4 text-gray-500'>
+                  <a href='/#' className='ml-4 text-gray-500'>
                     <svg
                       fill='currentColor'
                       strokeLinecap='round'
@@ -100,7 +102,7 @@ const CenteredContactForm = () => {
                       <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
                     </svg>
                   </a>
-                  <a href="/#" className='ml-4 text-gray-500'>
+                  <a href='/#' className='ml-4 text-gray-500'>
                     <svg
                       fill='none'
                       stroke='currentColor'
@@ -121,7 +123,7 @@ const CenteredContactForm = () => {
                       <path d='M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01'></path>
                     </svg>
                   </a>
-                  <a href="/#" className='ml-4 text-gray-500'>
+                  <a href='/#' className='ml-4 text-gray-500'>
                     <svg
                       fill='currentColor'
                       strokeLinecap='round'

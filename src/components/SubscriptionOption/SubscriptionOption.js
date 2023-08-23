@@ -7,8 +7,8 @@ const SubscriptionOption = ({ title, description }) => {
         <h2 className='text-xl font-semibold'>{title}</h2>
         <p className='text-gray-600 mt-2'>{description}</p>
       </div>
-      <button className='bg-blue-500 text-white px-4 py-2 rounded'>
-        Subscribe
+      <button className='flex mx-auto bg-gray-900 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded'>
+        Read More
       </button>
     </div>
   );

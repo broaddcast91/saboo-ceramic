@@ -16,7 +16,7 @@ const ImageArticle = ({ imageSrc, title, text, buttonText }) => {
         <div className='max-w-md lg:w-1/2'>
           <h2 className='text-xl font-semibold mb-4'>{title}</h2>
           <p className='text-gray-700 mb-4'>{text}</p>
-          <button className='bg-blue-500 text-white px-4 py-2 rounded'>
+          <button className='bg-gray-900 hover:bg-gray-400 text-white px-4 py-2 rounded border-b-4 border-gray-700 hover:border-gray-500'>
             {buttonText}
           </button>
         </div>
