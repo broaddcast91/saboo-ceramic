@@ -11,7 +11,7 @@ const Header = () => {
     <header className='bg-gray-900 p-4 sticky top-0 z-50'>
       <div className='container mx-auto flex justify-between items-center'>
         <div className='text-white text-2xl font-semibold mb-4 md:mb-0 hover:text-yellow-500'>
-          Saboo Pro
+          Saboo Detailing
         </div>
         <button className='md:hidden text-white text-2xl' onClick={toggleMenu}>
           &#9776;
