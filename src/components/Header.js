@@ -13,23 +13,26 @@ const Header = () => {
         <div className='text-white text-2xl font-semibold mb-4 md:mb-0 hover:text-yellow-500'>
           Saboo Detailing
         </div>
-        <button className='md:hidden text-white text-2xl' onClick={toggleMenu}>
+        <button
+          className='md:hidden text-white text-2xl focus:outline-none'
+          onClick={toggleMenu}
+        >
           &#9776;
         </button>
         <nav
           className={`md:flex ${
             menuOpen ? 'flex' : 'hidden'
-          } md:items-center justify-center  md:flex-grow`}
+          } md:items-center justify-center md:flex-grow`}
         >
           <ul
-            className={`flex flex-col md:flex-row space-y-6 text-sm  md:space-y-0 md:space-x-6 ${
-              menuOpen ? 'text-center' : ''
+            className={`flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 ${
+              menuOpen ? 'md:space-x-0 md:space-y-6' : ''
             }`}
           >
             <li>
               <a
                 href='/#'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Home
               </a>
@@ -37,7 +40,7 @@ const Header = () => {
             <li>
               <a
                 href='/services'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Services
               </a>
@@ -45,15 +48,15 @@ const Header = () => {
             <li>
               <a
                 href='/#'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Team
               </a>
             </li>
             <li>
               <a
-                href='/#'
-                className='text-white hover:text-yellow-500'
+                href='/projects'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Projects
               </a>
@@ -61,7 +64,7 @@ const Header = () => {
             <li>
               <a
                 href='/#'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Signature Cars
               </a>
@@ -69,7 +72,7 @@ const Header = () => {
             <li>
               <a
                 href='/#'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Jobs
               </a>
@@ -77,7 +80,7 @@ const Header = () => {
             <li>
               <a
                 href='/#'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 News
               </a>
@@ -85,7 +88,7 @@ const Header = () => {
             <li>
               <a
                 href='/#'
-                className='text-white hover:text-yellow-500'
+                className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Contact Us
               </a>
