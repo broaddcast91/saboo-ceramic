@@ -3,7 +3,7 @@ import YouTube from 'react-youtube';
 
 const YoutubeThumbnails = ({ heading, caption }) => {
   return (
-    <div className='bg-yellow-400'>
+    <div className='bg-yellow-300'>
       <div className='text-center px-4 py-8 md:py-12'>
         <h2 className='text-3xl font-semibold mb-2'>{heading}</h2>
         <p className='text-gray-600'>{caption}</p>

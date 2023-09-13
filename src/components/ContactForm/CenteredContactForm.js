@@ -1,17 +1,18 @@
 import React from 'react';
+import Header from '../Header';
+import Footer from '../Footer/Footer';
 
 const CenteredContactForm = () => {
   return (
     <div>
-      <section className='text-gray-700 bg-yellow-400 body-font relative'>
+      <section className='text-gray-700 bg-yellow-300 body-font relative'>
         <div className='container px-5 py-12 md:py-24 mx-auto'>
           <div className='flex flex-col text-center w-full mb-8 md:mb-12'>
             <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
               Contact Us
             </h1>
             <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
+              Connecting Excellence, One Inquiry at a Time
             </p>
           </div>
           <div className='lg:w-1/2 md:w-2/3 mx-auto'>

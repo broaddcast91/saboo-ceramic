@@ -24,7 +24,7 @@ export function Projects() {
   return (
     <>
       <Header />
-      <div className='bg-yellow-400 min-h-screen'>
+      <div className='bg-yellow-300 min-h-screen'>
         <CenteredHeadingDescription
           heading='Our Projects'
           description='AT SABOO DETAILING, WE PRIDE OURSELVES ON DELIVERING AUTOMOTIVE PERFECTION, METICULOUSLY TAILORED TO FULFILL THE DREAMS OF OUR ESTEEMED CLIENTS. LET US MAKE YOUR AUTOMOTIVE DREAM A REALITY.'
@@ -108,7 +108,7 @@ const CustomTabs = () => {
   ];
 
   return (
-    <div className='bg-yellow-400 min-h-screen p-2'>
+    <div className='bg-yellow-300 min-h-screen p-2'>
       <div className='flex space-x-4 justify-center mr-2'>
         {tabsData.map((tab, index) => (
           <Tab

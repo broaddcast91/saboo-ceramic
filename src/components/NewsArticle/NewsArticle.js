@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsArticle = ({ title, description }) => {
   return (
-    <div className='bg-yellow-400 p-4 shadow-md'>
+    <div className='bg-yellow-300 p-4 shadow-md'>
       <h3 className='text-xl font-semibold mb-2'>{title}</h3>
       <p className='text-gray-600'>{description}</p>
     </div>
@@ -29,7 +29,7 @@ const NewsSection = () => {
   ];
 
   return (
-    <div className='bg-yellow-400'>
+    <div className='bg-yellow-300'>
       <div className='m-4 md:m-6 '>
         <div className='text-center px-4 py-6 md:py-10'>
           <h2 className='text-3xl font-semibold mb-2'>Latest News</h2>

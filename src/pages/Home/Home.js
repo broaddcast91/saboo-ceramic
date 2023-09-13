@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../components/Header'
+import Header from '../../components/Header';
 import Slider from '../../components/Slider';
 import ImageArticle from '../../components/ImageArticle/ImageArticle';
 import YoutubeThumbnails from '../../components/YouTubeThumbnails/YoutubeThumbnails';
@@ -9,6 +9,7 @@ import NewsSection from '../../components/NewsArticle/NewsArticle';
 import BrandLogosGrid from '../../components/BrandLogos/BrandLogosGrid';
 import ProjectsThumbnails from '../../components/ProjectLayout/ProjectThumbnail';
 import CenteredContactForm from '../../components/ContactForm/CenteredContactForm';
+import Footer from '../../components/Footer/Footer';
 
 const projects = [
   {
@@ -38,11 +39,10 @@ const projects = [
   // Add more projects
 ];
 
-
 const Home = () => {
   return (
     <>
-    <Header />
+      <Header />
       <Slider />
       <ImageArticle
         imageSrc='image-url'
@@ -67,10 +67,13 @@ const Home = () => {
         title='News Archive'
         description='Get access to exclusive News content every month.'
       />
+
       <BrandLogosGrid heading='Our Brand Partners' />
+
       <ProjectsThumbnails projects={projects} />
       <CenteredContactForm />
-  </>
+      <Footer />
+    </>
   );
 };
 

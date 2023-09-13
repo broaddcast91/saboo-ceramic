@@ -13,7 +13,7 @@ const ProjectThumbnail = ({ title, description, imageUrl }) => {
 
 const ProjectsThumbnails = ({ projects, heading }) => {
   return (
-    <div className='bg-yellow-400'>
+    <div className='bg-yellow-300'>
       <div className='text-center px-4 py-10'>
         <h2 className='text-3xl font-semibold mb-2'>Projects</h2>
         <p className='text-gray-600'>Project Description</p>

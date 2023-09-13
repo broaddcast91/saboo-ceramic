@@ -80,7 +80,7 @@ const TilesContainer = () => {
 
   const Tile = ({ image, heading, caption }) => (
     <div className='p-4'>
-      <div className='bg-white rounded-lg shadow-md p-6'>
+      <div className='bg-yellow-400 rounded-lg shadow-lg p-4 hover:bg-yellow-500 hover:shadow-xl transition duration-300'>
         <img src={image} alt={heading} className='mb-4' />
         <h3 className='text-lg font-extrabold mb-2'>{heading}</h3>
         <p className='text-gray-600 text-sm'>{caption}</p>
@@ -89,7 +89,7 @@ const TilesContainer = () => {
   );
 
   return (
-    <div className=' mx-auto p-8 bg-yellow-400'>
+    <div className=' mx-auto p-8 bg-yellow-300'>
       <div className='flex flex-col items-center justify-center'>
         <h1 className='text-2xl font-semibold mb-2'>Our Services</h1>
         <p className='text-gray-600 mb-6 py-10'>

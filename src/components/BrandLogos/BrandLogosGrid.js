@@ -14,16 +14,16 @@ const BrandLogosGrid = ({ heading }) => {
   ];
 
   return (
-    <div className='bg-gray-700 text-white'>
-      <div className='text-center px-4 py-8 md:py-12'>
-        <h2 className='text-2xl font-semibold mb-4'>{heading}</h2>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
+    <div class='bg-gray-700 text-white  flex flex-col items-center justify-center'>
+      <div class='text-center px-4 py-8 md:py-12 max-w-m'>
+        <h2 class='text-2xl p-4 font-semibold mb-8'>{heading}</h2>
+        <div class='grid grid-cols-2 md:grid-cols-4 gap-4 max-w-m'>
           {brandLogos.map((logoUrl, index) => (
-            <div key={index} className='flex items-center justify-center'>
+            <div key={index} class='flex items-center justify-center'>
               <img
                 src={logoUrl}
                 alt={`Brand Logo ${index}`}
-                className='w-full h-auto'
+                class='w-32 md:w-auto h-auto max-h-16'
               />
             </div>
           ))}

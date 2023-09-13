@@ -47,7 +47,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href='/#'
+                href='/teams'
                 className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Team
@@ -87,7 +87,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href='/#'
+                href='/contactus'
                 className='text-white hover:text-yellow-500 block md:inline-block md:text-center'
               >
                 Contact Us
