@@ -5,8 +5,8 @@ import Home from './pages/Home/Home';
 import Services from './pages/Services/Services';
 import { Projects } from './pages/Projects/Projects';
 
-import Signup from './components/Login/Signup';
-import Sigin from './components/Login/Sigin';
+// import Signup from './components/Login/Signup';
+// import Sigin from './components/Login/Sigin';
 import Account from './components/Login/Account';
 import { AuthContextProvider } from './context/AuthContext';
 import CenteredContactForm from './components/ContactForm/CenteredContactForm';
