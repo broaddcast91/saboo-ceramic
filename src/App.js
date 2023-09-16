@@ -22,8 +22,8 @@ function App() {
             <Route path='/services' element={<Services />} />
             <Route path='/teams' element={<Teams />} />
             <Route path='/projects' element={<Projects />} />
-            <Route path='/login' element={<Sigin />} />
-            <Route path='/signup' element={<Signup />} />
+            {/* <Route path='/login' element={<Sigin />} />
+            <Route path='/signup' element={<Signup />} /> */}
             <Route path='/account' element={<Account />} />
             <Route path='/contactus' element={<CenteredContactForm />} />
           </Routes>
